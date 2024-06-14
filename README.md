@@ -22,7 +22,7 @@ To run this, please run the application in *mock_test_api.py* first. Then run th
 ## Comparing Mongo GridFS vs S3
 
 The choice between AWS S3 & MongoDB GridFS for JSON will depend on the specific use case, the access pattern, scalability needs and also cost considerations.
-While **S3** will be a better options if you need the *durability, availability, scalability* and also easy to *integrate with cloud services*, **MongoDB GridFS** is a good idea because of *powerful, complexible queries on documents* and *fully-integrated with MongoDB*.
+While **S3** will be a better options if you need the *durability, availability, scalability* and also easy to *integrate with cloud services*, **MongoDB GridFS** is a good idea because it is *powerful, complexible queries on documents* and *fully-integrated with MongoDB*.
 In this excercise, since we are already using MongoDB and still need to do some updates on documents, MongoDB GridFS will be a better choice to mange everything in a single system.
 The code demonstrate for Read and Write in GridFS is located in folder **gridfs**.
 
